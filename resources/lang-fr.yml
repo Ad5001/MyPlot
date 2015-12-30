@@ -1,0 +1,128 @@
+language: "fr"
+
+#French language pack (fr) by Ad5001
+#Follow me on Twitter @Ad5001P4F and on YouTube http://youtube.com/c/ad5001mcpeetgaming
+
+#############################
+
+# Messages for commands
+
+#############################
+
+messages:
+   # Add helper
+   addhelper-desc: "Ajouter un joueur à votre plot"
+   addhelper-alias: addh
+   addhelper-usage: "/p addhelper <pseudo du joueur>"
+   addhelper-notinplot: "§6Vous n'êtes pas sur un plot."
+   addhelper-notowner: "§6Ce plot ne vous appartient pas."
+   addhelper-alreadyone: " §6est déjà avec vous sur ce plot."
+   addhelper-success: " §aest désormais admis sur votre plot."
+   addhelper-error: "§4Impossible d'ajouter ce joueur à votre plot."
+
+   # Remove Helper
+
+   removehelper-desc: "Supprimer un joueur de votre plot"
+   removehelper-alias: delh
+   removehelper-notinplot: "§6Vous n'êtes pas sur un plot."
+   removehelper-notowner: "§6Ce plot ne vous appartient pas."
+   removehelper-notone: " §6n'est pas admis sur votre plot."
+   removehelper-success: " §an'est désormais plus admis sur votre plot."
+   removehelper-error: "§4Impossible de supprimer ce joueur de votre plot."
+
+   # Claim
+
+   claim-desc: "Prendre/acheter le plot sur lequel vous êtes"
+   claim-alias: c
+   claim-notinplot: "§6Vous n'êtes pas sur un plot."
+   claim-notowner: "§6Ce plot ne vous appartient pas."
+   claim-already: "§6Ce plot appartient déjà à "
+   claim-max: "§6Vous avez atteint la limite de plot autorisés."
+   claim-money: "§6Vous n'avez pas assez d'argent pour acheter ce plot."
+   claim-success: "§aPlot pris/acheté"
+   claim-error: "§4Impossible de prendre/acheter ce plot."
+
+   # Auto
+
+   auto-desc: "Teleporte au plot non pris le plus proche"
+   auto-alias: a
+   auto-notinworld: "§6Vous n'êtes pas sur un monde plot."
+   auto-success: "§aTeleportation au plot "
+   auto-error: "§4Aucun plot disponible."
+
+   # Dispose
+
+   dispose-desc: "Mettre à disposition votre plot, ce qui le rend disponible à l'achat."
+   dispose-alias: d
+   dispose-notinplot: "§6Vous n'êtes pas sur un plot."
+   dispose-notowner: "§6Ce plot ne vous appartient pas."
+   dispose-money: "§6Vous n'avez pas assez d'argent pour mettre à disposition ce plot."
+   dispose-success: "§aVotre plot a bien été mit à disposition."
+   dispose-error: "§4Impossible de mettre à disposition ce plot."
+
+   # Reset
+
+   reset-desc: "Réinitialiser votre plot (le mettre à disposition et le remettre à 0)"
+   reset-alias: r
+   reset-notinplot: "§6Vous n'êtes pas sur un plot."
+   reset-notowner: "§6Ce plot ne vous appartient pas."
+   reset-money: "§6Vous n'avez pas assez d'argent pour réinitialiser ce plot."
+   reset-success: "§aVotre plot a bien été réinitialiser."
+   reset-error: "§4Impossible de réinitialiser ce plot."
+
+   # Clear
+
+   clear-desc: "Remettre à 0 votre plot"
+   clear-alias: cl
+   clear-notinplot: "§6Vous n'êtes pas sur un plot."
+   clear-notowner: "§6Ce plot ne vous appartient pas."
+   clear-money: "§6Vous n'avez pas assez d'argent pour remettre à 0 ce plot."
+   clear-success: "§aVotre plot a bien été remis à 0."
+   clear-error: "§4Impossible de remettre à 0 ce plot."
+
+   # Biome
+
+   biome-desc: "Changer le biome de votre plot"
+   biome-alias: b
+   biome-notinplot: "§6Vous n'êtes pas sur un plot."
+   biome-notowner: "§6Ce plot ne vous appartient pas."
+   biome-success: "§aVotre plot a bien changer de biome."
+   biome-invalid: "§4Ce biome n'existe pas."
+   biome-possible: "§aLes biomes possibles sont: "
+   biome-error: "§4Impossible de changer de biome de ce plot."
+
+   # Name
+
+   name-desc: "Nommer votre plot"
+   name-alias: n
+   name-notinplot: "§6Vous n'êtes pas sur un plot."
+   name-notowner: "§6Ce plot ne vous appartient pas."
+   name-success: "§aLe nom de votre plot est désormais "
+   name-error: "§4Impossible de changer de nom ce plot."
+
+   # Home
+
+   home-desc: "Se téléporter à votre plot."
+   home-alias: h
+   home-noplots: "§4Vous n'avez aucun plot."
+   home-notexist: "§6Vous n'avez pas de plot avec le numéro "
+   home-success: "§aTélportation au plot "
+   home-error: "§4Impossible de se télépoter à ce plot."
+
+   # Info
+
+   info-desc: "Voir les informations du plot sur lequel vous êtes"
+   info-alias: i
+   info-notinplot: "§6Vous n'êtes pas sur un plot."
+   info-about: "Informations du plot  "
+   info-name: "Nom: "
+   info-owner: "Propriétaire: "
+   info-helpers: "Autres joueurs sur le plot: "
+   info-biome: "Biome: "
+
+   # List
+
+   list-desc: "Voir la liste de vos plots"
+   list-alias: l
+   list-noplots: "§4Vous n'avez aucun plot."
+   list-plots: "Vos plots :"

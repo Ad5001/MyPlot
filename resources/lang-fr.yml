@@ -12,7 +12,7 @@ language: "fr"
 messages:
    # Add helper
    addhelper-desc: "Ajouter un joueur à votre plot"
-   addhelper-alias: addh
+   addhelper-alias: addp
    addhelper-usage: "/p addhelper <pseudo du joueur>"
    addhelper-notinplot: "§6Vous n'êtes pas sur un plot."
    addhelper-notowner: "§6Ce plot ne vous appartient pas."
@@ -23,7 +23,7 @@ messages:
    # Remove Helper
 
    removehelper-desc: "Supprimer un joueur de votre plot"
-   removehelper-alias: delh
+   removehelper-alias: delp
    removehelper-notinplot: "§6Vous n'êtes pas sur un plot."
    removehelper-notowner: "§6Ce plot ne vous appartient pas."
    removehelper-notone: " §6n'est pas admis sur votre plot."
